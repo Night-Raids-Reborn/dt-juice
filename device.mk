@@ -90,6 +90,26 @@ PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
+# GBoard
+PRODUCT_PACKAGES += \
+    Gboard
+
+# ViaBrowser
+PRODUCT_PACKAGES += \
+    ViaBrowser
+
+# MiXplorer
+PRODUCT_PACKAGES += \
+    MiXplorer 
+
+# MiCalculator
+PRODUCT_PACKAGES += \
+    MiCalculator 
+
+# GoogleRecorder
+PRODUCT_PACKAGES += \
+    GoogleRecorder 
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl-qti \
