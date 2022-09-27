@@ -111,6 +111,11 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1 \
     android.hardware.keymaster@4.1.vendor
 
+# exfat
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/exfat/fsck.exfat:$(TARGET_COPY_OUT_SYSTEM)/bin/fsck.exfat \
+    $(LOCAL_PATH)/configs/exfat/mkfs.exfat:$(TARGET_COPY_OUT_SYSTEM)/bin/mkfs.exfat
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_juice
