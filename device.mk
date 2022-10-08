@@ -56,10 +56,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
-# Camera
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
-
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := speed-profile
 
@@ -89,26 +85,6 @@ PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
-
-# GBoard
-PRODUCT_PACKAGES += \
-    Gboard
-
-# ViaBrowser
-PRODUCT_PACKAGES += \
-    ViaBrowser
-
-# MiXplorer
-PRODUCT_PACKAGES += \
-    MiXplorer 
-
-# MiCalculator
-PRODUCT_PACKAGES += \
-    MiCalculator 
-
-# GoogleRecorder
-PRODUCT_PACKAGES += \
-    GoogleRecorder 
 
 # Health
 PRODUCT_PACKAGES += \
@@ -248,5 +224,13 @@ PRODUCT_COPY_FILES += \
 # Vulkan
 PRODUCT_PACKAGES += \
     libvulkan
+
+# Prebuilt APP
+PRODUCT_PACKAGES += \
+    Gboard \
+    GoogleCameraGo \
+    ViaBrowser \
+    MiCalculator \
+    GoogleRecorder
 
 -include $(LOCAL_PATH)/props.mk
