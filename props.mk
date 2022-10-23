@@ -226,11 +226,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.data.wda.enable=true \
     persist.rmnet.data.enable=true
 
-# Surfaceflinger Offsets
-PRODUCT_PRODUCT_PROPERTIES += \
-    debug.sf.high_fps_early_gl_phase_offset_ns=-2000000 \
-    debug.sf.high_fps_late_sf_phase_offset_ns=-2000000
-
 # Shutdown
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.build.shutdown_timeout=2
