@@ -25,3 +25,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Fingerprint
 BUILD_FINGERPRINT := google/raven/raven:12/SQ3A.220705.003.A1/8672226:user/release-keys
+
+#GAPPS
+WITH_GMS := true
