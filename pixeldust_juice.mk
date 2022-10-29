@@ -7,11 +7,11 @@
 # Inherit from juice device
 $(call inherit-product, device/xiaomi/juice/device.mk)
 
-# Inherit some common awaken X stuff.
-$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+# Inherit some common pixeldust X stuff.
+$(call inherit-product, vendor/pixeldust/configs/pixeldust_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := awaken_juice
+PRODUCT_NAME := pixeldust_juice
 PRODUCT_DEVICE := juice
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Juice

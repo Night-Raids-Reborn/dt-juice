@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_juice.mk
+    $(LOCAL_DIR)/pixeldust_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_juice-user \
-    awaken_juice-userdebug \
-    awaken_juice-eng
+    pixeldust_juice-user \
+    pixeldust_juice-userdebug \
+    pixeldust_juice-eng
