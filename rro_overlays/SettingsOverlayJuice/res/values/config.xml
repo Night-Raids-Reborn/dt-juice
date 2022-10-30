@@ -34,6 +34,6 @@
     <bool name="config_show_adaptive_connectivity">false</bool>
 
     <!-- About device screen, build maintainer -->
-    <string name="build_maintainer_summary">Avinash Dwivedi (kalkioss)</string>
-    <string name="build_maintainer_telegram">https://t.me/kalkioss</string>
+    <string name="build_maintainer_summary">Darknius</string>
+    <string name="build_maintainer_telegram">https://t.me/CC_CLANG</string>
 </resources>
