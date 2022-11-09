@@ -45,12 +45,8 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.audio@2.0-impl \
-    audio.bluetooth.default \
-    BluetoothQti \
-    libbluetooth_qti \
-    vendor.qti.hardware.bluetooth_audio@2.0.vendor \
-    vendor.qti.hardware.btconfigstore@1.0.vendor
+    android.hardware.bluetooth@1.0.vendor \
+    android.hardware.bluetooth@1.1.vendor
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -150,10 +146,6 @@ PRODUCT_PACKAGES += \
 
 # Properties
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
-
-# QTI
-TARGET_COMMON_QTI_COMPONENTS := \
-    bt
 
 # Radio
 PRODUCT_PACKAGES += \
