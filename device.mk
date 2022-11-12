@@ -132,10 +132,6 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
-# Parts
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 # Pixel Wallpapers
 PRODUCT_PACKAGES += \
     PixelWallpapers2021
