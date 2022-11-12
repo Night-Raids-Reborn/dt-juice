@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_juice.mk
+    $(LOCAL_DIR)/aosp_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_juice-user \
-    evolution_juice-userdebug \
-    evolution_juice-eng
+    aosp_juice-user \
+    aosp_juice-userdebug \
+    aosp_juice-eng
