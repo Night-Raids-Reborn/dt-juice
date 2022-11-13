@@ -220,4 +220,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libvulkan
 
+# Overlays2
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 -include $(LOCAL_PATH)/props.mk
