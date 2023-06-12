@@ -150,6 +150,7 @@ BUILD_WITHOUT_VENDOR := true
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
 
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
